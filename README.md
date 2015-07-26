@@ -1,6 +1,13 @@
 # Quick make image with vim, php, ruby, java, python
 Let's enjoy programming.
 
+```shell
+vagrant ssh
+docker build -t your-user-name/image-name /vagrant/baseimage-docker/baseimage-docker/
+```
+
+All done!
+
 # A minimal Ubuntu base image modified for Docker-friendliness
 
 [![](https://badge.imagelayers.io/phusion/baseimage:0.9.17.svg)](https://imagelayers.io/?images=phusion/baseimage:latest 'Get your own badge on imagelayers.io')
